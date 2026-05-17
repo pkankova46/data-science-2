@@ -7,24 +7,29 @@ Contact:
 - Ondřej Týbl - tybl@karlin.mff.cuni.cz
 - Karel Kozmík - kozmikk@karlin.mff.cuni.cz
 
+**Changes:**
+- Practicals from 31. 3. are swapped with the lecture from 24. 3. — this means two lectures one week, followed by two practicals the next week.
+- Section on LLM during exams usage added (see below)
+- on 5.5., we continued with the lecture instead of practicals, content from [Neural Networks VII](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_LargeLanguageModels.pdf) will be part of the exam only up to the Training section (excluded)
+
 This repository contains materials to the Data Science 2 - NMFP436 course.
 ## Lectures plan
-| Date      | Topic                | Lecturer |
-|-----------|----------------------| ------- |
-| 17.2.2026 | Intro                | Karel
-| 24.2.2026 | Decision Trees I     | Vaclav
-| 24.2.2026  | Decision Trees II    | Vaclav
-| 10.3.2026 | Decision Trees III   | Karel
-| 17.3.2026 | Decision Trees IV    | Karel
-| 24.3.2026 | Neural Networks I    | Ondřej
-| 31.3.2026  | Neural Networks II   | Ondřej
-| 7.4.2026  | Neural Networks III  | Ondřej
-| 14.4.2026 | Neural Networks IV   | Ondřej
-| 21.4.2026 | Neural Networks V    | Ondřej
-| 28.4.2026 | Neural Networks VI   | Ondřej
-| 5.5.2026  | Neural Networks VII  | Ondřej 
-| 12.5.2026 | TBA   | TBA
-| 19.5.2026 | Exam        | TBA
+| Date      | Topic               | Lecturer |
+|-----------|---------------------| ------- |
+| 17.2.2026 | Intro               | Karel
+| 24.2.2026 | Decision Trees I    | Vaclav
+| 24.2.2026  | Decision Trees II   | Vaclav
+| 10.3.2026 | Decision Trees III  | Karel
+| 17.3.2026 | Decision Trees IV   | Karel
+| 24.3.2026 | [Neural Networks I](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_Perceptron.pdf)   | Ondřej
+| ~~31.3.2026~~ 24.3.2026  | [Neural Networks II](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_LossFunctions.pdf)  | Ondřej
+| 7.4.2026  | [Neural Networks III](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_Training.pdf) | Ondřej
+| 14.4.2026 | [Neural Networks IV](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_ConvolutionNeuralNetworksI.pdf)  | Ondřej
+| 21.4.2026 | [Neural Networks V](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_ConvolutionNeuralNetworksII.pdf)   | Ondřej
+| 28.4.2026 | [Neural Networks VI](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_TextEmbeddings.pdf)  | Ondřej
+| 5.5.2026  | [Neural Networks VII](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_LargeLanguageModels.pdf) | Ondřej 
+| 12.5.2026 | Guest Lecture       | Marek Židek
+| 19.5.2026 | Exam                | TBA
 
 ## Practicals plan
 | Date      | Topic                            | Lecturer |
@@ -32,22 +37,39 @@ This repository contains materials to the Data Science 2 - NMFP436 course.
 | 17.2.2026 | Intro + Environment setup        | Karel
 | 3.3.2026 | [Data Science Basics I](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/01_ml_basics/ML_basics.ipynb)            | Ondřej
 | 3.3.2026  | [Data Science Basics II](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/01_ml_basics/ML_basics.ipynb)           | Ondřej
-| 10.3.2026 | Decision Trees I                 | Karel
-| 17.3.2026 | Decision Trees II                | Karel
-| 24.3.2026 | Decision Trees III               | Karel
-| 31.3.2026 | Hyperparameters Optimization     | Karel
-| 7.4.2026  | Neural Networks I                | Ondřej
-| 14.4.2026 | Neural Networks II               | Ondřej
-| 21.4.2026 | Neural Networks III              | Ondřej
-| 28.4.2026 | Neural Networks IV               | Ondřej 
-| 5.5.2026  | Neural Networks V                | Ondřej
-| 12.5.2026 | Neural Networks VI               | Ondřej
+| 10.3.2026 | [Decision Trees I](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/02_decision_trees/trees_and_forest.ipynb)                 | Karel
+| 17.3.2026 | [Decision Trees II](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/02_decision_trees/trees_and_forest.ipynb)                | Karel
+| ~~24.3.2026~~ 31.3.2026 | [Decision Trees III](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/02_decision_trees/xgboost.ipynb)               | Karel
+| 31.3.2026 | [Hyperparameters Optimization](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/03_hyperparameter_optimization/hyperparameters_optimization.ipynb)     | Karel
+| 7.4.2026  | [Neural Networks I](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/04_neural_networks/NN_introduction.ipynb)                | Ondřej
+| 14.4.2026 | [Neural Networks II](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/04_neural_networks/NN_mnist.ipynb)               | Ondřej
+| 21.4.2026 | [Neural Networks III](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/04_neural_networks/NN_convolutions.ipynb)              | Ondřej
+| 28.4.2026 | [Neural Networks IV](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/04_neural_networks/NN_finetuning.ipynb)               | Ondřej 
+| 5.5.2026  | continue - lecture [Neural Networks VII](https://github.com/wenceslasdk/data-science-2/blob/main/Lectures/DataScience2_LargeLanguageModels.pdf)                 | Ondřej
+| 12.5.2026 | [Neural Networks V](https://github.com/wenceslasdk/data-science-2/blob/main/Practicals/04_neural_networks/NN_transformers.ipynb)               | Ondřej
 | 19.5.2026 | Exam                             | TBA
 
 To receive the course credit, students must successfully work out two home assignments, 
 one will be focused on decision trees and the other one on neural networks. 
 There are only two assignments, but they will be complex and require considerable amount of work. 
 Details will be published later in the semester. The course credit is a necessary requirement to take the final exam.
+
+## LLM Usage Guidelines for the Exam
+
+The exam consists of two parts: **preparation** and an **oral examination**.
+
+### 1. Preparation (LLM allowed)
+
+You will be given time to prepare, during which **you may use any tools** — including LLMs (ChatGPT, Claude, Copilot, etc.), notes, the internet, and so on.
+
+### 2. Oral Examination (no LLM)
+
+After the preparation phase, the examiner will sit down with you. From that point on, **you may not use any tools** — no LLMs, no notes, no internet.
+
+During the oral part, you are expected to:
+
+- **Explain what each part of your code does.** You do not need to be able to write the code from memory, but you must understand what you wrote and why.
+- **Answer theoretical questions without any assistance.** Questions may cover anything from the lectures or exercises.
 
 <!--- For the first assignment we have the following competition: https://www.kaggle.com/t/55b8baf8b4294622a400c7a7c3d15cc7 --->
 
